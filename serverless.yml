@@ -8,14 +8,14 @@ useDotenv: true
 provider:
   name: aws
   runtime: ruby2.7
-  stage: dev
+  stage: prod
   region: ap-southeast-1
-  apiName: ruby-serverless-dev
+  apiName: ruby-serverless-prod
   tracing:
     apiGateway: true
     lambda: true
   environment:
-    RUBY_ENV: development
+    RUBY_ENV: production
     # MY_AWS_ACCESS_KEY: ${param:MY_AWS_ACCESS_KEY}
     # MY_AWS_SECRET_ACCESS_KEY: ${param:MY_AWS_SECRET_ACCESS_KEY}
     # JWT_SECRET: ${param:JWT_SECRET}
@@ -39,7 +39,7 @@ provider:
         - "*"
   apiGateway:
     shouldStartNameWithService: true
-    description: ruby serverless staging
+    description: ruby serverless prod
   lambdaHashingVersion: 20201221
 
 functions:
