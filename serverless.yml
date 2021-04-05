@@ -127,6 +127,8 @@ plugins:
   # - serverless-plugin-split-stacks
 
 custom:
+  rubyLayer:
+    use_docker: true
   prune:
     automatic: true
     number: 3

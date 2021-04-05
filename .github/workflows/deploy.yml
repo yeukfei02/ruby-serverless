@@ -30,6 +30,11 @@ jobs:
           bundler-cache: true
       - run: bundle install
 
+      - name: Install docker
+        uses: docker-practice/actions-setup-docker@master
+      - run: set -x
+      - run: docker version
+
       - name: serverless deploy
         uses: serverless/github-action@master
         with:
