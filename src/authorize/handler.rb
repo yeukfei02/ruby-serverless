@@ -18,7 +18,7 @@ def authorize(event:, context:)
         decoded = JWT.decode token, jwt_secret, true, { algorithm: 'HS256' }
         puts "decoded = #{decoded}"
         if decoded
-            principalId = decoded['id']
+            principalId = decoded[0]['id']
             effect = 'Allow'
             policy_document = generate_policy_document(principalId, effect)
         end
