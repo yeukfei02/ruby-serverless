@@ -3,12 +3,15 @@ Dotenv.load
 
 require 'json'
 require 'jwt'
+require 'logger'
 
 def authorize(event:, context:)
+    logger = Logger.new($stdout)
+
     token = event['authorizationToken'].gsub('Bearer ', '')
     jwt_secret = ENV['JWT_SECRET']
 
-    puts "token = #{token}"
+    logger.info("token = #{token}")
 
     principalId = 'user'
     effect = 'Deny'
@@ -16,14 +19,14 @@ def authorize(event:, context:)
 
     begin
         decoded = JWT.decode token, jwt_secret, true, { algorithm: 'HS256' }
-        puts "decoded = #{decoded}"
+        logger.info("decoded = #{decoded}")
         if decoded
             principalId = decoded[0]['id']
             effect = 'Allow'
             policy_document = generate_policy_document(principalId, effect)
         end
     rescue => exception
-        puts "error = #{exception}"
+        logger.info("error = #{exception}")
     end
 
     return policy_document
@@ -32,8 +35,8 @@ end
 def generate_policy_document(principalId, effect)
     policy_document = {}
 
-    puts "principalId = #{principalId}"
-    puts "effect = #{effect}"
+    logger.info("principalId = #{principalId}")
+    logger.info("effect = #{effect}")
 
     if principalId && effect
         policy_document = {

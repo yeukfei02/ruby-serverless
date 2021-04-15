@@ -1,12 +1,15 @@
 require 'json'
+require 'logger'
 require_relative '../../model/Notes.rb'
 
 def createNotes(event:, context:)
+    logger = Logger.new($stdout)
+    
     body = JSON.parse(event['body'])
     if defined? body
         content = body['content']
 
-        puts "content = #{content}"
+        logger.info("content = #{content}")
 
         notes = Notes.new()
         notes.id = SecureRandom.uuid

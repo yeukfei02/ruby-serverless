@@ -1,16 +1,19 @@
 require 'json'
+require 'logger'
 require 'securerandom'
 require 'bcrypt'
 require_relative '../../model/User.rb'
 
 def signup(event:, context:)
+    logger = Logger.new($stdout)
+
     body = JSON.parse(event['body'])
     if defined? body
         email = body['email']
         password = body['password']
 
-        puts "email = #{email}"
-        puts "password = #{password}"
+        logger.info("email = #{email}")
+        logger.info("password = #{password}")
 
         user = User.new()
         user.id = SecureRandom.uuid

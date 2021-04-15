@@ -2,19 +2,22 @@ require 'dotenv'
 Dotenv.load
 
 require 'json'
+require 'logger'
 require 'jwt'
 require 'bcrypt'
 require 'securerandom'
 require_relative '../../model/User.rb'
 
 def login(event:, context:)
+    logger = Logger.new($stdout)
+
     body = JSON.parse(event['body'])
     if defined? body
         email = body['email']
         password = body['password']
 
-        puts "email = #{email}"
-        puts "password = #{password}"
+        logger.info("email = #{email}")
+        logger.info("password = #{password}")
 
         payload = { id: SecureRandom.uuid, email: email }
         jwt_secret = ENV['JWT_SECRET']
@@ -30,8 +33,8 @@ def login(event:, context:)
 
         # user = User.where(email: email).first
         # if user
-        #     puts "user.password = #{user.password}"
-        #     puts "BCrypt::Password.new(user.password) = #{BCrypt::Password.new(user.password)}"
+            # logger.info("user.password = #{user.password}")
+            # logger.info("BCrypt::Password.new(user.password) = #{BCrypt::Password.new(user.password)}")
 
         #     if password == BCrypt::Password.new(user.password)
         #         payload = { id: SecureRandom.uuid, email: email }
