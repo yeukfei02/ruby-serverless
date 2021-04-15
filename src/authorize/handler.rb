@@ -33,6 +33,8 @@ def authorize(event:, context:)
 end
 
 def generate_policy_document(principalId, effect)
+    logger = Logger.new($stdout)
+    
     policy_document = {}
 
     logger.info("principalId = #{principalId}")
