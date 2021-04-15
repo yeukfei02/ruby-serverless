@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.2...v0.1.3) (2021-04-15)
+
+
+### Bug Fixes
+
+* 🐛 revert to previous sls lib version ([610a29f](https://github.com/yeukfei02/ruby-serverless/commit/610a29fbf2171f02d25834fe8de6c214dcdcf325))
+
 ### [0.1.2](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.1...v0.1.2) (2021-04-15)
 
 
