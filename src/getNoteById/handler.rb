@@ -1,7 +1,10 @@
 require 'json'
+require 'logger'
 require_relative '../../model/Notes.rb'
 
 def getNoteById(event:, context:)
+    logger = Logger.new($stdout)
+
     if event['pathParameters']
         id = event['pathParameters']['id']
         if id
@@ -16,7 +19,7 @@ def getNoteById(event:, context:)
                     }.to_json
                 }
             rescue => exception
-                puts "error = #{exception}"
+                logger.info("error = #{exception}")
 
                 {
                     statusCode: 400,
