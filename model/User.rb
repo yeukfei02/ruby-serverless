@@ -1,4 +1,4 @@
-require_relative '../db/db.rb'
+require_relative '../db/db'
 
 class User
     include Dynamoid::Document

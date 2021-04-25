@@ -1,6 +1,6 @@
 require 'json'
 require 'logger'
-require_relative '../../model/Notes.rb'
+require_relative '../../model/Notes'
 
 def deleteNoteById(event:, context:)
     logger = Logger.new($stdout)

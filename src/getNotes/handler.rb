@@ -1,5 +1,5 @@
 require 'json'
-require_relative '../../model/Notes.rb'
+require_relative '../../model/Notes'
 
 def getNotes(event:, context:)
     notes = Notes.all
