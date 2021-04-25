@@ -1,4 +1,4 @@
-require_relative '../db/db.rb'
+require_relative '../db/db'
 
 class Notes
     include Dynamoid::Document

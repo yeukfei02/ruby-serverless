@@ -2,7 +2,7 @@ require 'json'
 require 'logger'
 require 'securerandom'
 require 'bcrypt'
-require_relative '../../model/User.rb'
+require_relative '../../model/User'
 
 def signup(event:, context:)
     logger = Logger.new($stdout)

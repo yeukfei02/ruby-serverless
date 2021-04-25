@@ -6,7 +6,7 @@ require 'logger'
 require 'jwt'
 require 'bcrypt'
 require 'securerandom'
-require_relative '../../model/User.rb'
+require_relative '../../model/User'
 
 def login(event:, context:)
     logger = Logger.new($stdout)
