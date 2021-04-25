@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.4...v0.1.5) (2021-04-25)
+
+
+### Bug Fixes
+
+* 🐛 remove .rb in require_relative ([6a5de26](https://github.com/yeukfei02/ruby-serverless/commit/6a5de265f44798a56a1224aa2bdc9e676dd5aaab))
+
 ### [0.1.4](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.3...v0.1.4) (2021-04-15)
 
 
