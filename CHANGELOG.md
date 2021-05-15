@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.5...v0.1.6) (2021-05-15)
+
+
+### Bug Fixes
+
+* 🐛 fix dotenv lib ([2b4a6e3](https://github.com/yeukfei02/ruby-serverless/commit/2b4a6e3978105b785b9039381a386c9728ed73e0))
+
 ### [0.1.5](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.4...v0.1.5) (2021-04-25)
 
 
