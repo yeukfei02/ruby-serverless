@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.6...v0.1.7) (2021-05-15)
+
+
+### Bug Fixes
+
+* 🐛 update serverless and serverless-offline lib ([d6515d8](https://github.com/yeukfei02/ruby-serverless/commit/d6515d8c97fe20b9c6e4f1943b535be69b23c75a))
+
 ### [0.1.6](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.5...v0.1.6) (2021-05-15)
 
 
