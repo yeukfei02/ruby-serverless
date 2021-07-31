@@ -30,6 +30,10 @@ jobs:
           bundler-cache: true
       - run: bundle install
 
+      - name: Set up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v1
+
       - name: serverless deploy
         uses: serverless/github-action@master
         with:
