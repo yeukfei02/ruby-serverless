@@ -2,7 +2,7 @@
 
 documentation: <https://documenter.getpostman.com/view/3827865/TzCQb6f3>
 
-api url: <https://sfwq2kw7ua.execute-api.ap-southeast-1.amazonaws.com/prod/>
+api url: <https://j3pm31hfpg.execute-api.ap-southeast-1.amazonaws.com/prod/>
 
 ## Requirement
 
