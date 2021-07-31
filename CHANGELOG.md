@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.8...v0.1.9) (2021-07-31)
+
+
+### Bug Fixes
+
+* 🐛 add docker in deploy.yml ([3da11d5](https://github.com/yeukfei02/ruby-serverless/commit/3da11d5f43a2e450554ae3f949307cf1fd822fce))
+* 🐛 add Setup docker in deploy.yml ([da75efa](https://github.com/yeukfei02/ruby-serverless/commit/da75efa53d9c5cb4ffabb7a58db04beaa5d9a968))
+* 🐛 comment Setup docker in deploy.yml ([2c2d7f5](https://github.com/yeukfei02/ruby-serverless/commit/2c2d7f5de2e18a36c985cd83ae43b865e0cb7b61))
+* 🐛 fix github actions ([87d72b8](https://github.com/yeukfei02/ruby-serverless/commit/87d72b8861cf71b801b50cbe30c73a01751d4a75))
+* 🐛 update deploy.yml ([0af3ca2](https://github.com/yeukfei02/ruby-serverless/commit/0af3ca269ac7449c755013afd35e99a9c76cc643))
+* 🐛 update deploy.yml ([534390e](https://github.com/yeukfei02/ruby-serverless/commit/534390e778b9822badbec66c372f1695a9f4f268))
+
 ### [0.1.8](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.7...v0.1.8) (2021-05-15)
 
 
