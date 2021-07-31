@@ -31,7 +31,7 @@ jobs:
       - run: bundle install
 
       - name: Setup docker
-      - uses: docker-practice/actions-setup-docker@master
+        uses: docker-practice/actions-setup-docker@master
       - run: |
           set -x
           docker version
