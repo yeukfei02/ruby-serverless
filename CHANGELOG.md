@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.11](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.10...v0.1.11) (2021-10-13)
+
+
+### Bug Fixes
+
+* 🐛 add rubocop and reek for lint and format ([00e1e69](https://github.com/yeukfei02/ruby-serverless/commit/00e1e69a636cba6d11ef88f0da98e93c6d64a9e1))
+
 ### [0.1.10](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.9...v0.1.10) (2021-10-12)
 
 
