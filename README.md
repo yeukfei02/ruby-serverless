@@ -10,7 +10,7 @@ api url: <https://j3pm31hfpg.execute-api.ap-southeast-1.amazonaws.com/prod/>
 - install gem
 - install bundle
 - install yarn
-- install node (v12+)
+- install node (v14+)
 - install serverless
 
 ## Testing and run
