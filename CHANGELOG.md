@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.11...v0.1.12) (2021-12-07)
+
+
+### Bug Fixes
+
+* 🐛 add .ruby-version ([21fe45f](https://github.com/yeukfei02/ruby-serverless/commit/21fe45f4a6153ab9857a43f300fe92828928f170))
+
 ### [0.1.11](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.10...v0.1.11) (2021-10-13)
 
 
