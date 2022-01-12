@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.13](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.12...v0.1.13) (2022-01-12)
+
+
+### Features
+
+* 🎸 update sls lib and use arm64 architecture ([278db64](https://github.com/yeukfei02/ruby-serverless/commit/278db643126ab5bc5cf243d10ba473f284acfd38))
+
 ### [0.1.12](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.11...v0.1.12) (2021-12-07)
 
 
