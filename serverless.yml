@@ -126,13 +126,8 @@ functions:
 
 plugins:
   - serverless-ruby-layer
-  - serverless-prune-plugin
   - serverless-offline
-  # - serverless-plugin-split-stacks
 
 custom:
   rubyLayer:
     use_docker: true
-  prune:
-    automatic: true
-    number: 3
