@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.13](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.12...v0.1.13) (2022-01-12)
+
+
+### Features
+
+* 🎸 update sls lib and use arm64 architecture ([278db64](https://github.com/yeukfei02/ruby-serverless/commit/278db643126ab5bc5cf243d10ba473f284acfd38))
+
+### [0.1.12](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.11...v0.1.12) (2021-12-07)
+
+
+### Bug Fixes
+
+* 🐛 add .ruby-version ([21fe45f](https://github.com/yeukfei02/ruby-serverless/commit/21fe45f4a6153ab9857a43f300fe92828928f170))
+
+### [0.1.11](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.10...v0.1.11) (2021-10-13)
+
+
+### Bug Fixes
+
+* 🐛 add rubocop and reek for lint and format ([00e1e69](https://github.com/yeukfei02/ruby-serverless/commit/00e1e69a636cba6d11ef88f0da98e93c6d64a9e1))
+
+### [0.1.10](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.9...v0.1.10) (2021-10-12)
+
+
+### Bug Fixes
+
+* 🐛 fix Gemfile ([1872391](https://github.com/yeukfei02/ruby-serverless/commit/1872391e5c89eb63edebe553a6864673bec4ae9c))
+
 ### [0.1.9](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.8...v0.1.9) (2021-07-31)
 
 
