@@ -43,7 +43,7 @@ provider:
     shouldStartNameWithService: true
     description: ruby serverless prod
   lambdaHashingVersion: 20201221
-  # architecture: arm64
+  architecture: arm64
   timeout: 30
 
 functions:
