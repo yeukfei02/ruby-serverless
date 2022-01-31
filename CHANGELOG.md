@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.14](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.13...v0.1.14) (2022-01-31)
+
+
+### Bug Fixes
+
+* 🐛 temp comment arm64 arch ([1d27a93](https://github.com/yeukfei02/ruby-serverless/commit/1d27a93a288c244d887f8655d0e1132351ab71b3))
+* 🐛 update sls lib ([c413212](https://github.com/yeukfei02/ruby-serverless/commit/c4132120b175991f7dea108ed4a5178a4a9011be))
+
 ### [0.1.13](https://github.com/yeukfei02/ruby-serverless/compare/v0.1.12...v0.1.13) (2022-01-12)
 
 
